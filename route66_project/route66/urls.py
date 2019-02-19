@@ -2,6 +2,8 @@ from django.urls import path
 
 from . import views
 
+# new code for paths to be requested
+
 urlpatterns = [
     path("", views.index,name="index"),
     path('gogetthegood/', views.gogetthegood, name='index'),
